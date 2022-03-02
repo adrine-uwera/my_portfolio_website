@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Solway:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./src/style.css">
+        <script src="https://kit.fontawesome.com/3c5d2d689a.js" crossorigin="anonymous"></script>
+        <title>My Portifolio</title>
+    </head>
+    <body>
+        <!-- Navigation bar section -->
+        <nav class="navbar">
+            <div class="logo_container">
+                <a href="#home">
+                    <img id="logo" src="./images/adu_logo.png">
+                </a>
+            </div>
+            <div class="navbar_toggle" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navigation-menu">
+                <li class="navigation_items"><a class ="navbar_link" href="#about-me">About me</a></li>
+                <li class="navigation_items"><a class ="navbar_link" href="#skills-and-qualifications">My skills</a></li>
+                <li class="navigation_items"><a class ="navbar_link" href="#projects">Projects</a></li>
+                <li class="nav_button"><a class="button" href="#contact-me">Say hello</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <!-- Home section -->
+            <section id="home">
+                <div class="introduction">
+                    <h1 id="introduce-myself">Hi, <br> I'm Adrine. </h1>
+                    <p id="my_description">Front-end developer and Programmer. </p>
+                    <a class="more_about_me_link" href="#about-me"><button class="more_about_me_btn">About me</button></a>
+                </div>
+
+                <div class="my_picture">
+                    <img id="my_profile_image" src="./images/adrine.PNG">
+                </div>
+            </section>
+
+            <!-- About me section -->
+
+            <section class="page-sections" id="about-me">
+                <header class="headers">
+                    <h1 class="titles">GET TO KNOW ME!</h1>
+                </header>
+                <div class="sections-content">
+                    <div class="about-me-content-left">
+                        <p class="about-me-content-p1">
+                            Hi, I'm Adrine, but you can call me Adu :) <br>
+                            It's a pleasure to meet you!<br>
+                            <br>
+                            I'm a frontend developer and a programmer based in Kigali, Rwanda. I am passionate about building appealing, compatible, and interactive designs.
+                            <br>
+                            <br>
+                            Besides that, I am a proactive, communicative, and highly motivated person. I pay high attention to details and I am great team player.
+                            <br>
+                            <br>
+                            My hobbies include learning new skills, connecting and vibing with people, photographing, listening to music, drawing, and being a part of activities.
+                        </p>
+                    </div>
+                    <div class="about-me-content-right">
+                        <h4>Drawing</h4>
+                        <img src="./images/my_drawing.jpg">
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Skills and qualifications section -->
+            <section class="page-sections" id="skills-and-qualifications">
+                <header class="headers">
+                    <h1 class="titles">SKILLS</h1>
+                </header>
+                <div class="sections-content">
+                    <div class="skills-left">
+                        <p class="skills-left-p1">I am computer science student with relative skills and qualifications in front-end developlment and programming. I have worked on different projects to improve both my technical and professional skills.</p>
+                        <br>
+                        <h3>RELATED QUALIFICATIONS</h3>
+                        <br>
+                        <table class="table">
+                            <tr>
+                                <th>Institution</th>
+                                <th>Course</th>
+                                <th>Years</th>
+                            </tr>
+                            <tr>
+                                <td>ALU Rwanda</td>
+                                <td>Computer Science</td>
+                                <td>2021-2024</td>
+                            </tr>
+                            <tr>
+                                <td>ANDELA</td>
+                                <td>Web Development Crash course</td>
+                                <td>2021</td>
+                            </tr>
+                            <tr>
+                                <td>CEJEVA</td>
+                                <td>Computer hardware</td>
+                                <td>2014</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="skills-right">
+                        <h3>LANGUAGES</h3>
+                        <div class="languages">
+                            <img class="languages-icons" src="./images/html5.png">
+                            <div class="language-bar">
+                                <div class="language-rating" id="html"></div>
+                            </div>
+                        </div>
+                        <div class="languages">
+                            <img class="languages-icons" src="./images/css_3.png">
+                            <div class="language-bar">
+                                <div class="language-rating" id="css"></div>
+                            </div>
+                        </div>
+                        <div class="languages">
+                            <img class="languages-icons" src="./images/js_file.png">
+                            <div class="language-bar">
+                                <div class="language-rating" id="javascript"></div>
+                            </div>
+                        </div>
+                        <div class="languages">
+                            <img class="languages-icons" src="./images/database.png">
+                            <div class="language-bar">
+                                <div class="language-rating" id="sql"></div>
+                            </div>
+                        </div>
+                        <div class="languages">
+                            <img class="languages-icons" src="./images/python.png">
+                            <div class="language-bar">
+                                <div class="language-rating" id="python"></div>
+                            </div>
+                        </div>
+                        <div class="languages">
+                            <img class="languages-icons" src="./images/java.png">
+                            <div class="language-bar">
+                                <div class="language-rating" id="java"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects section -->
+            <section class="page-sections" id="projects">
+                <header class="headers">
+                    <h1 class="titles">PROJECTS</h1>
+                </header>
+                <div class="projects-content">
+                    <div class="projects-cards">
+                        <div class="project-details">
+                            <img class="projects-cover" src="./images/alumni_website.png">
+                            <a href="#">ALU Alumni website</a>
+                        </div>
+                        <div class="project-details">
+                            <img class="projects-cover" src="./images/student_management_system.png">
+                            <a href="https://github.com/alu-rwa-prog-1/assignment_summative_2021-summative_project_group_16">Student Management System</a>
+                        </div>
+                    </div>
+                    <div class="projects-cards">
+                        <div class="project-details">
+                            <img class="projects-cover" src="./images/car_rental.jpg">
+                            <a href="https://github.com/adrine-uwera/Omondi_car_renting_company">Car rental Management system</a>
+                        </div>
+                        <div class="project-details">
+                            <img class="projects-cover" src="./images/bank.png">
+                            <a href="https://github.com/alu-rwa-prog-1/assignment_week_7_2021-AdrineUWERA">Bank transaction management system</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer section - Contact me -->
+        <footer id = "contact-me"> 
+            <div class="contact-me-content">
+                <div class="footer-left">
+                    <header class="headers">
+                        <h1 class="titles">CONTACT ME</h1>
+                    </header>
+                    <p>For any request, or if you want to start a conversation, any collaboration, get in touch with me by filling this form.</p>
+                    <form class="contact-me-form">
+                        <input id="name" placeholder="Name"><br>
+                        <input id="email" placeholder="Email"><br>
+                        <input id="subject" placeholder="Subject"><br>
+                        <input id="message" placeholder="Message"><br>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="footer-right"> 
+                    <div class="contact_address">
+                        <div class="contact-address-info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>a.uwera@alustudent.com</span>
+                            <br>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Kicukiro-Kigali, Rwanda</span>
+                        </div>
+                        <div class="google-map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.404006166951!2d30.06347041423661!3d-1.9933330373670284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dcaf555ac228c9%3A0x2303cfe37e3604e3!2sKK%20796%20St%2C%20Kigali!5e0!3m2!1sen!2srw!4v1643916222125!5m2!1sen!2srw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="footer-icons">
+                        <a href="https://www.linkedin.com/in/adrine-uwera-5742b3206/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/adrine-uwera" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+                        <a href="https://www.instagram.com/_.a.d.r.i.n.e._/ " target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="https://www.facebook.com/uwera.adrine/" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p id="copyright">Coded by Adrine UWERA &copy; 2022</p>
+            
+        </footer>
+        <script src="./src/app.js"></script>
+
+    </body>
+</html>
